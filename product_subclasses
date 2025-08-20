@@ -6,7 +6,7 @@ class productcontroller
     @Postmapping(/"saveproducts")
    public void saveproduct(@valid @requestbody Product_Entity productentity)
 {
-   save.products(productentity);
+
 
 
 }
