@@ -1,0 +1,4 @@
+public void secoundclass(){
+
+   System.out.println("hi.....");
+}
