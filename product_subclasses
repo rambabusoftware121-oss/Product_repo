@@ -1,13 +1,14 @@
 class productcontroller
 {
-     
-
+   @Autowired
+   public iproductservice productservice;
+   
     @RestController
     @Postmapping(/"saveproducts")
    public void saveproduct(@valid @requestbody Product_Entity productentity)
 {
    
-
+     productservices.save(productentity);
 
 }
 
